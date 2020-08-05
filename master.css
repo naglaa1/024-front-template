@@ -1,0 +1,299 @@
+body{
+  background-color: #F0F0ED;
+  
+}
+.container {
+  margin-top: 30px ;
+  width: 90%;
+}
+.main-widget {
+  background-color: #fff;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.main-widget:nth-child(1){
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+input{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+input:first-child {
+  width: 60%;
+  background-color: #F7F7F7;
+}
+input:nth-child(2) {
+  background-color: #2F9BC1;
+  color: #fff;
+  font-weight: bold;
+}
+.header h4 {
+    font-weight: bold;
+    margin-top: 0;
+    padding: 20px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    background-color: #fff;
+    margin-bottom: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+/* start members*/
+.main-widget .news {
+  display: inline-block;
+  height: 30px;
+  width:65px;
+  background-color:#77AF12;
+  border-radius: 6px;
+  margin: 25px 6px 25px 0;
+  padding: 6px;
+  color: #fff;
+
+}
+.nom-members{
+  margin-bottom: 20px;
+}
+.nom-members img {
+  display: inline-block;
+  vertical-align:top; /* permet de gérer l'alignement vertical du texte*/
+
+}
+.nom-members .friends {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    padding-top: 2px;
+}
+.nom-members .friends h5 {
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.nom-members .friends .num {
+  background-color: #E4ECF1;
+  color: #5f9cc2;
+  border-radius: 6px;
+  width: 100px;
+  height: 100px;
+  font-size: 16px;;
+}
+
+/* End  members*/
+
+/* start Groubs*/
+.main-widget.groups .news{
+  margin: 9px 5px 5px 0px;
+  text-align: center;
+}
+.main-widget.groups .news.last {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  width: 120px;
+}
+
+.main-widget .nom-members.photo img {
+  margin :30px 15px 5px 0;
+  width:53px;
+  border-radius: 6px;;
+
+}
+.main-widget table {
+  width: 250px;
+  margin: 15px;
+  height: 250px;
+}
+.main-widget caption {
+  text-align: right;
+  margin: 10px 15px 20px ;
+}
+.main-widget thead {
+  padding: 5px;
+  text-align: center;
+  color: rgb(107, 104, 104);
+
+}
+.main-widget tbody td {
+  margin: 15px;
+  text-align: center;
+  color: rgb(10, 10, 10);
+}
+
+/*start col-6*/
+.content .middel {
+  position: relative;
+}
+.content .middel .photo{
+      background-image: url('../images/middel.jpg');
+      background-size: 100%;
+      height: 420px;
+}
+.content .middel .par-photo {
+  position: absolute ;
+  top: 69%;
+  left: 5%;
+  color: white;
+  font-size: 24px;
+  width: 49%;
+  padding: 10px;
+  background-color: black;
+  border-radius: 7px;
+  font-weight:  bold;
+}
+.content .about-friend {
+  margin: 25px 0 25px;
+  border-radius:15px;
+  background-color: #fff;
+  padding-bottom: 2px;
+  
+}
+.activity {
+  overflow: hidden;
+  height: auto;
+}
+.activity h4 {
+  font-weight: bold;
+  background-color: #e4e4e7;
+  height: 70px;
+  padding:23px 0 0 15px;
+  font-size: 20px;
+  margin: 0;
+}
+.activity .part {
+  padding: 5px 5px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+.activity .part div {
+  float: left;
+}
+.activity .clear {
+    clear: both;
+}
+.activity img {
+  border-radius: 7px;
+  margin: 20px 0px 0 15px;
+
+}
+.activity .friends {
+  font-size: 15px;
+  width: 75%;
+  margin: 20px 0px 20px 20px;
+  color: #aeb4b4;
+  
+}
+.activity .friends .dark {
+  font-weight: bold;
+  color: rgb(83, 82, 82);
+}
+.activity .load-more {
+  height: 50px;
+  background-color: rgb(245, 240, 240);
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 12px;
+  margin: 25px 20px;
+  border-radius: 7px;
+}
+
+.activity .part.posts {
+  border: none
+}
+.activity .number {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin: 7px;
+  text-align: center;
+}
+.activity .number.one {
+  background-color: rgb(197, 193, 193);
+}
+.activity .part.feature {
+   border: none;
+   padding: 15px 10px 30px 10px;
+}
+.activity .row-img {
+  float: left;
+  width: 20%;
+  margin-right: 20px;
+  font-size: 12px;
+}
+.activity .row-img img {
+  width: 140px;
+  height: 100px;
+  border-radius: 7px;
+}
+.activity .row-img p {
+  margin-left: 14px;
+  margin-top: 7px;
+}
+/*End  col-6*/
+
+/* start right side*/
+.main-widget.right {
+
+}
+.main-widget.right input:first-child,
+.main-widget.right input:nth-child(2),
+.main-widget.right input:nth-child(3) {
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  background-color: #F7F7F7;
+}
+input:nth-of-type(4) {
+  background-color: #2F9BC1;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+}
+.main-widget.right span .form {
+  width: 20px;
+  height: 20px;
+  background-color: #2F9BC1;
+}
+.main-widget.right p {
+  text-align: right;
+  padding-top: 15px;
+} 
+.main-widget.satistic p {
+  width: 90%;
+  height: 30px;
+  background-color: #d86ece;
+  margin: 10px;
+  border-radius: 7px;
+  padding: 10px 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color:#fff;
+  
+}
+.main-widget.satistic p span {
+  display: block;
+  float: right;
+  
+}
+.main-widget.line {
+  font-size: 18px;;
+}
+.main-widget.replies {
+  margin-bottom: 20px;
+  padding: 20px 15px 10px 20px;
+  font-size: 17px;
+}
+.main-widget.replies span {
+  color: grey;
+}
+.main-widget.replies p{
+  margin-bottom: 20px;
+}
